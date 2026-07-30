@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g fill="#5c5c5c" fill-rule="evenodd">
+    <path d="M6.5 1a1 1 0 0 0-1 1v.5H5A1.5 1.5 0 0 0 3.5 4v9A1.5 1.5 0 0 0 5 14.5h6A1.5 1.5 0 0 0 12.5 13V4A1.5 1.5 0 0 0 11 2.5h-.5V2a1 1 0 0 0-1-1h-3ZM6.5 2h3v1.2h-3V2ZM5 3.5h.5V4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-.5h.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V4a.5.5 0 0 1 .5-.5Z"/>
+    <rect x="5.5" y="6.3" width="5" height="1" rx="0.5"/>
+    <rect x="5.5" y="8.3" width="5" height="1" rx="0.5"/>
+    <rect x="5.5" y="10.3" width="3.2" height="1" rx="0.5"/>
+  </g>
+</svg>

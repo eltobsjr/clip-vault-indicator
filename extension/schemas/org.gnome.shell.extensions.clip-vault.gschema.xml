@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.clip-vault.panel-position">
+    <value nick="right"      value="0"/>
+    <value nick="right-edge" value="1"/>
+    <value nick="left"       value="2"/>
+    <value nick="left-edge"  value="3"/>
+  </enum>
+
+  <schema id="org.gnome.shell.extensions.clip-vault"
+          path="/org/gnome/shell/extensions/clip-vault/">
+
+    <key name="max-history" type="i">
+      <default>100</default>
+      <range min="20" max="500"/>
+      <summary>Tamanho máximo do histórico</summary>
+      <description>Quantidade de itens não fixados mantidos no histórico.</description>
+    </key>
+
+    <key name="keybinding-open" type="as">
+      <default>['&lt;Alt&gt;v']</default>
+      <summary>Atalho: abrir o seletor de busca</summary>
+    </key>
+
+    <key name="keybinding-cycle" type="as">
+      <default>['&lt;Alt&gt;c']</default>
+      <summary>Atalho: colar o item anterior (cycle)</summary>
+    </key>
+
+    <key name="autopaste-on-select" type="b">
+      <default>false</default>
+      <summary>Colar automaticamente ao escolher no seletor (Alt+V)</summary>
+      <description>
+        Quando ativo, escolher um item no seletor já injeta Ctrl+V na janela
+        ativa. Quando inativo (padrão), o item só é recolocado na área de
+        transferência e você cola manualmente. O Alt+C (cycle) sempre cola
+        automático, independente desta opção.
+      </description>
+    </key>
+
+    <key name="respect-password-hint" type="b">
+      <default>true</default>
+      <summary>Ignorar conteúdo marcado como sensível</summary>
+      <description>
+        Pula a captura quando o dono da área de transferência marca o
+        conteúdo com o hint x-kde-passwordManagerHint (usado por
+        KeePassXC, Bitwarden, 1Password etc.).
+      </description>
+    </key>
+
+    <key name="pause-capture" type="b">
+      <default>false</default>
+      <summary>Pausar a captura de novos itens</summary>
+    </key>
+
+    <key name="panel-position" enum="org.gnome.shell.extensions.clip-vault.panel-position">
+      <default>'right'</default>
+      <summary>Posição do indicador na barra superior</summary>
+    </key>
+
+  </schema>
+</schemalist>

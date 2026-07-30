@@ -1,0 +1,10 @@
+{
+  "uuid": "clip-vault@eltobsjr.gmail.com",
+  "name": "Clip Vault",
+  "description": "Histórico de área de transferência com busca instantânea. Alt+V abre um seletor para escolher qualquer item copiado recentemente; Alt+C cola direto o item anterior, sem abrir nada.",
+  "version-name": "0.1.0",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://github.com/eltobsjr/clip-vault-indicator",
+  "settings-schema": "org.gnome.shell.extensions.clip-vault",
+  "gettext-domain": "clip-vault"
+}

@@ -1,0 +1,6 @@
+# SecondBrain — documentação pessoal local
+ClipVaultSecondBrain/
+
+# artefatos de build
+*.shell-extension.zip
+extension/schemas/gschemas.compiled

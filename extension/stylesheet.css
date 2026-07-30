@@ -1,0 +1,83 @@
+/* Clip Vault — stylesheet */
+
+/* ---- painel ---- */
+.cv-panel { spacing: 4px; }
+
+.cv-empty-item {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* ---- overlay do seletor (Alt+V) ---- */
+.cv-picker {
+    background-color: rgba(20, 20, 20, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 14px;
+    spacing: 8px;
+    width: 34em;
+    margin-top: 90px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+}
+
+.cv-search {
+    font-size: 1.05em;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.06);
+    caret-color: -st-accent-color, #3584e4;
+}
+
+.cv-search:focus {
+    border-color: -st-accent-color, #3584e4;
+}
+
+.cv-scroll {
+    max-height: 22em;
+}
+
+.cv-list { spacing: 2px; }
+
+.cv-item {
+    padding: 7px 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.cv-item:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.cv-item.cv-item-selected {
+    background-color: -st-accent-color, #3584e4;
+}
+
+.cv-item-box { spacing: 2px; }
+
+.cv-item-text {
+    font-size: 0.98em;
+}
+
+.cv-item-pin {
+    font-size: 0.85em;
+    margin-left: 6px;
+}
+
+.cv-item-time {
+    font-size: 0.75em;
+    opacity: 0.55;
+}
+
+.cv-empty {
+    padding: 14px 4px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.cv-hint {
+    font-size: 0.72em;
+    opacity: 0.45;
+    padding-top: 4px;
+    text-align: center;
+}
