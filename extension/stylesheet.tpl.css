@@ -1,0 +1,40 @@
+.cv-panel { spacing: 4px; }
+.cv-empty-item { color: {{overlay1}}; font-style: italic; }
+
+/* overlay do seletor (Alt+V) */
+.cv-picker {
+    background-color: rgba({{mantle.rgb}}, 0.94);
+    border: 1px solid {{surface1}};
+    border-radius: {{radius.popup}}px;
+    padding: 14px;
+    spacing: 8px;
+    width: 34em;
+    margin-top: 90px;
+    box-shadow: 0 8px 28px rgba({{crust.rgb}}, 0.55);
+    color: {{text}};
+}
+.cv-search {
+    font-size: 1.05em;
+    padding: 8px 12px;
+    border-radius: {{radius.control}}px;
+    border: 1px solid {{surface1}};
+    background-color: {{surface0}};
+    color: {{text}};
+    caret-color: {{accent}};
+    selection-background-color: {{accent}};
+    selected-color: {{accent_ink}};
+}
+.cv-search:focus { border-color: {{accent}}; }
+.cv-search StLabel.hint-text { color: {{overlay1}}; }
+.cv-scroll { max-height: 22em; }
+.cv-list { spacing: 2px; }
+.cv-item { padding: 7px 10px; border-radius: {{radius.control}}px; text-align: left; color: {{text}}; }
+.cv-item:hover { background-color: {{surface0}}; }
+.cv-item.cv-item-selected { background-color: {{accent}}; color: {{accent_ink}}; }
+.cv-item-box { spacing: 2px; }
+.cv-item-text { font-size: 0.98em; }
+.cv-item-pin { font-size: 0.85em; margin-left: 6px; }
+.cv-item-time { font-size: 0.75em; color: {{subtext0}}; }
+.cv-item.cv-item-selected .cv-item-time { color: {{accent_ink}}; }
+.cv-empty { padding: 14px 4px; color: {{overlay1}}; text-align: center; }
+.cv-hint { font-size: 0.72em; color: {{overlay1}}; padding-top: 4px; text-align: center; }

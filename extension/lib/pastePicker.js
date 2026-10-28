@@ -118,7 +118,7 @@ class PastePicker extends St.BoxLayout {
         this._entry.set_text('');
         this._applyFilter();
 
-        Main.layout.addChrome(this, { trackFullscreen: true });
+        Main.layoutManager.addChrome(this, { trackFullscreen: true });
         this._grab = Main.pushModal(this);
         global.stage.set_key_focus(this._entry);
     }
@@ -128,7 +128,7 @@ class PastePicker extends St.BoxLayout {
             Main.popModal(this._grab);
             this._grab = null;
         }
-        Main.layout.removeChrome(this);
+        Main.layoutManager.removeChrome(this);
         this.destroy();
     }
 

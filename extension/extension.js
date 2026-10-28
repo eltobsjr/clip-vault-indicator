@@ -223,6 +223,7 @@ export default class ClipVaultExtension extends Extension {
         this._indicator?.destroy();
         this._indicator = null;
 
+        this._injector?.destroy();
         this._injector = null;
         this.settings = null;
     }

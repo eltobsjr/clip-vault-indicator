@@ -1,0 +1,8 @@
+{"title":"Clip Vault","schema":"org.gnome.shell.extensions.clip-vault","settings":[
+ {"section":"Barra superior","key":"panel-position","type":"enum","label":"Posição do ícone","choices":[["right","Direita (padrão)"],["right-edge","Extrema direita"],["left","Esquerda"],["left-edge","Extrema esquerda"]]},
+ {"section":"Histórico","key":"max-history","type":"int","label":"Itens guardados","choices":[[50,"50"],[100,"100 (padrão)"],[200,"200"],[500,"500"]]},
+ {"key":"respect-password-hint","type":"bool","label":"Ignorar o que gerenciadores de senha marcam como sensível"},
+ {"key":"autopaste-on-select","type":"bool","label":"Colar direto (Ctrl+V) ao escolher um item"},
+ {"section":"Atalhos","key":"keybinding-open","type":"strv","label":"Abrir o seletor (ex.: <Alt>v)"},
+ {"key":"keybinding-cycle","type":"strv","label":"Colar o item anterior (ex.: <Alt>c)"}
+]}
