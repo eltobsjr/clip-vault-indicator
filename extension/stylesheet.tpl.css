@@ -20,7 +20,7 @@
     border: 1px solid {{surface1}};
     background-color: {{surface0}};
     color: {{text}};
-    caret-color: {{accent}};
+    caret-color: {{accent_text}};
     selection-background-color: {{accent}};
     selected-color: {{accent_ink}};
 }
